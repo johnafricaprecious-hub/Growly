@@ -262,6 +262,42 @@ a.active:focus {
     font-weight: 600;
 }
 
+.first-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.first-section-grids {
+    width: 300px;
+    border-radius: 30px;
+    background-color: white;
+    height: 370px;
+}
+
+.first-grid-box {
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #fad8ff;
+    padding: 30px 20px;
+}
+.first-grid-box h3 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.first-grid-box p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.fifth-section-box {
+    background-color: black;
+    opacity: 1.2;
+}
+
+
+
 /* last section */
 .last-section {
     margin-top: 100px;
